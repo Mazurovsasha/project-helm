@@ -1,3 +1,14 @@
 apiVersion: v1
-entries: {}
-generated: "2023-11-29T16:14:30.716722326Z"
+entries:
+  myproject:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-30T14:51:38.826603819Z"
+    description: A Helm chart for Kubernetes
+    digest: cbd18ca3319e1b757b6a4801412d39bfd7edc40b04a6c6a8658aa32d211e8d27
+    name: myproject
+    type: application
+    urls:
+    - https://mazurovsasha.github.io/project-helm/myproject-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-11-30T14:51:38.826143765Z"
