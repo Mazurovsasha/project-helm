@@ -8,4 +8,4 @@ spec:
     app: {{ .Values.name }}
   ports:
   - name: http
-    port: {{ .Values.port }}
+    port: {{ .Values.service.port }}
