@@ -1,5 +1,5 @@
 name: myproject
-port: 3030
+port: 3000
 namespace: myproject
 
 replicaCount: 2
@@ -15,7 +15,7 @@ ingress:
 image:
   repository: mazurovsasha/project
   pullPolicy: IfNotPresent
-  tag: "1.0.20"
+  tag: "1.0.21"
 
 autoscaling:
   enabled: false
