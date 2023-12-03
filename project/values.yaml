@@ -11,6 +11,7 @@ rollingUpdate:
 ingress:
   className: nginx
   name: myproject-ingress
+  hostname: myproject.k8s-7.sa
 
 image:
   repository: mazurovsasha/project

@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: {{ .Values.ingress.className }}
   rules:
-  - host: myproject.k8s-7.sa
+  - host: {{ .Values.ingress.hostname }}
     http:
       paths:
       - path: /
