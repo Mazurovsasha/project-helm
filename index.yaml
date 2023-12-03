@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  myproject:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-01T18:25:52.397184978Z"
+    description: A Helm chart for Kubernetes
+    digest: 121c445913093176a93fdac05555829abca54d08f306fce87ed2cdfc36ebb269
+    name: myproject
+    type: application
+    urls:
+    - https://mazurovsasha.github.io/project-helm/myproject-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-30T15:05:52.606881396Z"
+    description: A Helm chart for Kubernetes
+    digest: b3bbb7ce2f8ce9d60fa70941605af6be17214c637147d4f227128ee67e2d18a8
+    name: myproject
+    type: application
+    urls:
+    - https://mazurovsasha.github.io/project-helm/myproject-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-12-01T18:25:52.390028011Z"
