@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: db-config
-  namespace: myproject
+  namespace: {{ .Values.namespace }}
 data:
   DB_USER: {{ .Values.dbconfig.DB_USER }}
   DB_HOST: {{ .Values.dbconfig.DB_HOST }}
