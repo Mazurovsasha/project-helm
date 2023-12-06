@@ -4,7 +4,7 @@ metadata:
   name: db-config
   namespace: {{ .Values.namespace }}
 data:
-  DB_USER: {{ .Values.dbconfig.DB_USER }}
-  DB_HOST: {{ .Values.dbconfig.DB_HOST }}
-  DB_DATABASE: {{ .Values.dbconfig.DB_DATABASE }}
-  DB_PORT: {{ .Values.dbconfig.DB_PORT }}
+  DB_USER: {{ .Values.dbconfig.user }}
+  DB_HOST: {{ .Values.dbconfig.host }}
+  DB_DATABASE: {{ .Values.dbconfig.database }}
+  DB_PORT: {{ .Values.dbconfig.port }}
