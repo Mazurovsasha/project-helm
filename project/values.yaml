@@ -3,9 +3,9 @@ port: 3000
 namespace: myproject
 
 dbconfig:
-  DB_USER: projectdb
-  DB_HOST: 192.168.202.13
-  DB_DATABASE: projectdb
+  DB_USER: "projectdb"
+  DB_HOST: "192.168.202.13"
+  DB_DATABASE: "projectdb"
   DB_PORT: "5432"
 
 replicaCount: 2
