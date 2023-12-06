@@ -2,6 +2,12 @@ name: myproject
 port: 3000
 namespace: myproject
 
+db-config:
+  DB_USER: projectdb
+  DB_HOST: 192.168.202.13
+  DB_DATABASE: projectdb
+  DB_PORT: "5432"
+
 replicaCount: 2
 
 rollingUpdate:
