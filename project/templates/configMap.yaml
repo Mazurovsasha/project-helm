@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: db-config
 data:
-  DB_USER: {{ .Values.db-config.DB_USER }}
-  DB_HOST: {{ .Values.db-config.DB_HOST }}
-  DB_DATABASE: {{ .Values.db-config.DB_DATABASE }}
-  DB_PORT: {{ .Values.db-config.DB_PORT }}
+  DB_USER: {{ .Values.dbconfig.DB_USER }}
+  DB_HOST: {{ .Values.dbconfig.DB_HOST }}
+  DB_DATABASE: {{ .Values.dbconfig.DB_DATABASE }}
+  DB_PORT: {{ .Values.dbconfig.DB_PORT }}

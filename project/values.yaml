@@ -2,7 +2,7 @@ name: myproject
 port: 3000
 namespace: myproject
 
-db-config:
+dbconfig:
   DB_USER: projectdb
   DB_HOST: 192.168.202.13
   DB_DATABASE: projectdb
