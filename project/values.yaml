@@ -22,7 +22,7 @@ ingress:
 image:
   repository: mazurovsasha/project
   pullPolicy: IfNotPresent
-  tag: "1.0.123"
+  tag: "1.0.125"
 
 autoscaling:
   enabled: false
